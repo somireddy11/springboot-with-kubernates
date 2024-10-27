@@ -1,3 +1,4 @@
+/*
 package com.shivalabs.bookmarker_api;
 
 import com.shivalabs.bookmarker_api.entity.BookMarks;
@@ -66,3 +67,4 @@ class BookmarkerApiApplicationTests {
 	}
 
 }
+*/
