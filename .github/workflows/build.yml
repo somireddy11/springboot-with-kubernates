@@ -21,6 +21,11 @@ jobs:
       run:
         working-directory: ./.
 
+    permissions:
+      contents: read  # Grant read access to the repository contents
+      actions: read   # Optional: Grant read access to actions
+      security-events: write  # Allow writing to security events (necessary for dependency submissions)
+
     steps:
       - uses: actions/checkout@v4
       - name: Set up JDK 17
